@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(163, 192, 255);
+}
+.title{
+    margin-top: 50px;
+    margin-left: 500px;
+    padding-left: 100px;
+    font-size: 32px;
+    margin-right: 50px;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: red */
+}
+.to-do{
+    width: 100%;
+    max-width: 540px;
+    background-color: white;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 70px;
+    border-radius: 15px;
+}
+.to-do h2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    /* margin-left: 120px; */
+}
+.to-do h2 img{
+    /* height: 40px; */
+    width: 50px;
+    margin-left: 10px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: beige;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+input{
+flex:1;
+border: none;
+outline: none;
+background-color: transparent;
+padding: 10px;
+font-weight: 10px;
+}
+button{
+    border: none;
+    outline: none;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(28, 100, 255);
+    color: white;
+    font-size: 15px;
+    border-radius: 35px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(137, 175, 255);
+}
+ul li{
+    list-style: none;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 45px;
+    padding-right: 15px;
+    /* user-select: none; */
+    cursor: pointer;
+    position: relative;
+}   
+ul li::before{
+    content: ' ';
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 20px;
+    background-image: url(images/img3.jpg);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+    right: 15px;
+}
+ul li.check{
+    color: rgb(148, 146, 146);
+    text-decoration: line-through;
+}
+ul li.check::before{
+    /* color: green; */
+    background-image: url(images/img6.jpg);  
+}
+
+ul li span{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 0;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 30px;
+    /* font-size: 18px; */
+}
+
+ul li span:hover{
+    background-color: rgb(208, 202, 202);
+    
+}
