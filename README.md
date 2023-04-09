@@ -1,5 +1,5 @@
 # To-Do Application
-` This is the small application to create to-do tasks using Html, CSS and JavaScript. In this application Html and CSS are used as frontend and JavaScript is used for backend and for form validation. `
+` This is the small application to create to-do tasks using HTML, CSS and JavaScript. In this application HTML and CSS are used as frontend and JavaScript is used to provide functionality to the frontend. `
 
 ## Functioning
 ` In this application form validation is also shown. If email address is incorrect or password length is less than 8 characters then user will not be allowed to enter in the application. If both conditions are true then user will be redirected to the main page of appplication. `
